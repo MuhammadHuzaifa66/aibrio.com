@@ -1,57 +1,9 @@
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   typescript: {
-//     ignoreBuildErrors: true,
-//   },
-//   images: {
-//     unoptimized: true,
-//   },
-// }
-
-// export default nextConfig
-
-
-//---------------------------------
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   output: 'export',
-
-//   typescript: {
-//     ignoreBuildErrors: true,
-//   },
-
-//   images: {
-//     unoptimized: true,
-//   },
-
-//   trailingSlash: true,
-// };
-
-// export default nextConfig;
-//------------------------------
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   output: 'export',
-
-//   typescript: {
-//     ignoreBuildErrors: true,
-//   },
-
-//   images: {
-//     unoptimized: true,
-//   },
-
-//   trailingSlash: true,
-
-//   assetPrefix: './', // 👈 THIS FIXES STYLING
-// };
-
-// export default nextConfig;
-
-//------------------------------
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  output: 'export',          // for static export
+  trailingSlash: true,       // ensures correct paths
+  assetPrefix: '/aibrio.com/', // 👈 Add your repo name here
   images: { unoptimized: true },
-  trailingSlash: true,
 };
 
+export default nextConfig;
