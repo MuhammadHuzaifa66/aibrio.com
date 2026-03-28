@@ -3,7 +3,7 @@ self.__BUILD_MANIFEST = {
     "afterFiles": [],
     "beforeFiles": [
       {
-        "source": "/.//_next/:path+",
+        "source": "/aibrio.com//_next/:path+",
         "destination": "/_next/:path+"
       }
     ],
