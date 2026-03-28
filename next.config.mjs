@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',          // for static export
-  trailingSlash: true,       // ensures correct paths
-  assetPrefix: '/aibrio.com/', // 👈 Add your repo name here
+  output: 'export',
+  trailingSlash: true,
+  assetPrefix: '/aibrio.com/',
   images: { unoptimized: true },
 };
 
