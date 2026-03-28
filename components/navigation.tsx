@@ -95,7 +95,7 @@ export function Navigation() {
                       className="relative w-8 h-8"
                     >
                       <Image
-                        src="/icon_1.svg"
+                        src="icon_1.svg"
                         alt="Aibrio Digital"
                         fill
                         className="object-contain"
@@ -113,7 +113,7 @@ export function Navigation() {
                       className="relative w-8 h-8"
                     >
                       <Image
-                        src="/icon_2.svg"
+                        src="icon_2.svg"
                         alt="Aibrio Digital"
                         fill
                         className="object-contain"
